@@ -10846,3 +10846,52 @@ html {
   background-repeat: no-repeat;
   min-height: 15rem;
 }
+
+.social-buttons {
+  text-align: center;
+  padding: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button i {
+  margin-right: 10px;
+}
+
+.facebook {
+  background-color: #1877f2;
+  color: white;
+}
+
+.linkedin {
+  background-color: #0077B5;
+  color: white;
+}
+
+.instagram {
+  background-color: #e4405f;
+  color: white;
+}
+.whatsapp {
+  background-color: #25d366;
+  color: white;
+}
+.discord {
+  background-color: #7289da;
+  color: white;
+}
+
+.button:hover {
+  background-color: #333;
+  color: white;
+}
